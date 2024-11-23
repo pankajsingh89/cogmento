@@ -26,6 +26,7 @@ public class LoginPage extends TestBase {
 
 	public String validatePageTitle() {
 		return driver.getTitle();
+		// it will return getTitle();
 	}
 
 	public void login(String uname, String pass) {
